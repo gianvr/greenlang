@@ -4,8 +4,6 @@ Palmeirês é uma linguagem de programação para todos os palmeirenses e desenv
 
 - **Elenco Estrelar**: As palavras reservadas de Palmeirês são cuidadosamente selecionadas a partir dos nomes e habilidades dos jogadores do Palmeiras em 2023. Cada palavra-chave é uma homenagem aos membros do time, trazendo a energia do Rony para o mundo da programação.
 
-- **Sintaxe Poderosa**: A sintaxe intuitiva de Palmeirês é projetada para ser tão fluida quanto um passe do Veiga. Desenvolvedores podem criar algoritmos complexos com facilidade, enquanto celebram cada linha de código como se fosse o gol do Breno Lopes na final da Libertadores.
-
 ## EBNF
 
 ```
