@@ -59,8 +59,8 @@ DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
 ## Exemplos
 - **Atribuição, condicional e print**
 ```
-arthur:menino:a abel 90;
-arthur:menino:b abel 70;
+arthur:gomez:a abel 90;
+arthur:gomez:b abel 70;
 marcos_rocha a palmeiras b {
   rony("a maior que b")
 }mayke{
@@ -70,7 +70,7 @@ marcos_rocha a palmeiras b {
 
 - **Loop, soma e atribuição**
 ```
-arthur:menino:a abel 90;
+arthur:gomez:a abel 90;
 endrick i abel 0; i dudu a; i = i piquerez 1{
   rony(i)
 }
