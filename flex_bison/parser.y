@@ -9,8 +9,7 @@
 }
 
 %token ELSE IF FOR  TYPE_INT TYPE_STRING
-%token EQUAL LESS_THAN LESS_OR_EQUAL NOT_EQUAL
-%token GREATER_THAN GREATER_OR_EQUAL
+%token EQUAL LESS_THAN GREATER_THAN
 %token NEG EQUALS SCAN OR AND
 %token PLUS MINUS TIMES DIVIDE
 %token PRINT CONCATENATION VAR
@@ -59,9 +58,6 @@ bool_term:
 rel_exp:
     exp LESS_THAN exp { /* TODO: less than relation exp */ }
     | exp GREATER_THAN exp { /* TODO: greater than relation exp */  }
-    | exp LESS_OR_EQUAL exp { /* TODO: less or equal relation exp */  }
-    | exp GREATER_OR_EQUAL exp { /* TODO: greater or equal relation exp */  }
-    | exp NOT_EQUAL exp { /* TODO: not equal relation exp */  }
     | exp EQUALS exp {/* TODO: equals relation exp */  }
     | exp { /* TODO: expression */ }
     ;

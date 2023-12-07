@@ -13,11 +13,8 @@
 "abelabel"                { return EQUALS; }
 "abel"                    { return EQUAL; }
 "dudu"                    { return LESS_THAN; }
-"dudu_abel"               { return LESS_OR_EQUAL; }
 "palmeiras"               { return GREATER_THAN; }
-"palestra_italia"         { return GREATER_OR_EQUAL; }
 "allianz_parque"          { return NEG; }
-"vanderlan"               { return NOT_EQUAL; }
 "veiga"                   { return SCAN; }
 "richard_rios"            { return OR; }
 "breno_lopes"             { return AND; }
