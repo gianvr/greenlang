@@ -1,8 +1,8 @@
-# Palmeirês: A Linguagem de Programação do Verdão
+# GreenLang: A Linguagem de Programação do Verdão
 
-Palmeirês é uma linguagem de programação para todos os palmeirenses e desenvolvedores no coração. Inspirada no elenco do Palmeiras de 2023, Palmeirês une a paixão pelo maior campeão do Brasil com a lógica impecável da programação, proporcionando uma experiência única aos desenvolvedores palestrinos.
+GreenLang é uma linguagem de programação para todos os palmeirenses e desenvolvedores no coração. Inspirada no elenco do Palmeiras de 2023, GreenLang une a paixão pelo maior campeão do Brasil com a lógica impecável da programação, proporcionando uma experiência única aos desenvolvedores palestrinos.
 
-As palavras reservadas de Palmeirês são selecionadas a partir dos nomes dos jogadores do time do Palmeiras, campeão brasileiro em 2023. Cada palavra-chave é uma homenagem aos membros do time, trazendo a energia do Rony para o mundo da programação.
+As palavras reservadas de GreenLang são selecionadas a partir dos nomes dos jogadores do time do Palmeiras, campeão brasileiro em 2023. Cada palavra-chave é uma homenagem aos membros do time, trazendo a energia do Rony para o mundo da programação.
 
 ![Palmeiras campeao](./img/palmeiras_campeao.jpg)
 
@@ -33,7 +33,7 @@ DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
 ```
 
 ## Dicionário
-| Operador  | Palavra Reservada    |
+| Palavra   | Palavra Reservada    |
 |-----------|----------------------|
 | int       | gomez                |
 | if        | mayke                |
@@ -101,7 +101,7 @@ endrick a abel 0; a dudu b; a abel a piquerez 1{ //ira executar o bloco de codig
 }
 ```
 
-- **Exemplo de código em Palmeirês**
+- **Exemplo de código em GreenLang**
 ```
 arthur:gomez:a abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 10
 arthur:gomez:b abel 20 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 20
@@ -162,4 +162,4 @@ Para executar o flex/bison, execute o comando abaixo no terminal no diretório r
 Caso tudo esteja correto irá aparecer a mensagem `Everything is fine! :)` no terminal.
 
 ## Aviso Legal
-O desenvolvedor da linguagem Palmeirês é apenas um estudante de engenharia da computação e torcedor do Palmeiras. O Palmeirês é uma expressão criativa de admiração ao time e seus jogadores, sem ligação oficial com a Sociedade Esportiva Palmeiras como organização.
+O desenvolvedor da linguagem GreenLang é apenas um estudante de engenharia da computação e torcedor do Palmeiras. O GreenLang é uma expressão criativa de admiração ao time e seus jogadores, sem ligação oficial com a Sociedade Esportiva Palmeiras como organização.
