@@ -1,4 +1,4 @@
-# GreenLang: A Linguagem de Programação do Verdão
+# GreenLang: A Linguagem de campeã do Brasil
 
 GreenLang é uma linguagem de programação para todos os palmeirenses e desenvolvedores no coração. Inspirada no elenco do Palmeiras de 2023, GreenLang une a paixão pelo maior campeão do Brasil com a lógica impecável da programação, proporcionando uma experiência única aos desenvolvedores palestrinos.
 
