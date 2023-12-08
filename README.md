@@ -4,6 +4,8 @@ Palmeirês é uma linguagem de programação para todos os palmeirenses e desenv
 
 As palavras reservadas de Palmeirês são selecionadas a partir dos nomes dos jogadores do time do Palmeiras, campeão brasileiro em 2023. Cada palavra-chave é uma homenagem aos membros do time, trazendo a energia do Rony para o mundo da programação.
 
+![Palmeiras campeao](./img/palmeiras_campeao.jpg)
+
 ## EBNF
 
 ```
