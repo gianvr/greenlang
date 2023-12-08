@@ -59,8 +59,8 @@ DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
 
 - **Declaração de variáveis**
 ```
-arthur:gomez:a //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 0
-arthur:gomez:b abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 10
+arthur:a:gomez //ira declarar uma variavel do tipo gomez (int) com o nome a
+arthur:b:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 10
 ```
 
 - **Atribuição**
@@ -92,8 +92,8 @@ mayke a weverton b {
 
 - **Loop**
 ```
-arthur:gomez:a; //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 0 para ser usada no loop
-arthur:gomez:b abel 10; //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 10 para ser usada no loop
+arthur:a:gomez //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 0 para ser usada no loop
+arthur:b:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 10 para ser usada no loop
 
 endrick a abel 0; a dudu b; a abel a piquerez 1{ //ira executar o bloco de codigo enquanto a for menor que b 
                                                 // e ira incrementar a variavel a em 1 a cada loop 
@@ -103,9 +103,9 @@ endrick a abel 0; a dudu b; a abel a piquerez 1{ //ira executar o bloco de codig
 
 - **Exemplo de código em GreenLang**
 ```
-arthur:gomez:a abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 10
-arthur:gomez:b abel 20 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 20
-arthur:gomez:c abel 0 //ira declarar uma variavel do tipo gomez (int) com o nome c e valor 0
+arthur:a:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 10
+arthur:b:gomez abel 20 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 20
+arthur:c:gomez abel 0 //ira declarar uma variavel do tipo gomez (int) com o nome c e valor 0
 
 mayke a dudu b { //ira executar o bloco de codigo caso a seja menor que b
   rony(a) //ira printar o valor da variavel a
