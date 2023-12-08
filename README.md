@@ -59,27 +59,27 @@ DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
 
 - **Declaração de variáveis**
 ```go
-arthur:a:gomez //ira declarar uma variavel do tipo gomez (int) com o nome a
-arthur:b:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 10
+arthur:a:gomez //irá declarar uma variável do tipo gomez (int) com o nome a
+arthur:b:gomez abel 10 //irá declarar uma variável do tipo gomez (int) com o nome b e valor 10
 ```
 
 - **Atribuição**
 ```go
-a abel 10 //ira atribuir o valor 10 a variavel a
+a abel 10 //irá atribuir o valor 10 a variável a
 ```
 - **Scan**
 ```go
-a abel veiga() //ira atribuir o valor digitado pelo usuario a variavel
+a abel veiga() //irá atribuir o valor digitado pelo usuário a variável a
 ```
 
 - **Print**
 ```go
-rony(a) //ira printar o valor da variavel a
+rony(a) //irá printar o valor da variável a
 ```
 
 - **Condicionais**
 ```go
-mayke a weverton b { //ira executar o bloco de codigo caso a seja maior que b
+mayke a weverton b { //irá executar o bloco de código caso a seja maior que b
   rony(a)
 }
 
@@ -87,37 +87,37 @@ mayke a weverton b {
   rony(a)
 }marcos_rocha{ 
   rony(b)
-} //ira executar o bloco de codigo caso a seja maior que b, caso contrario ira executar o bloco de codigo apos o else
+} //irá executar o bloco de código caso a seja maior que b, caso contrário irá executar o bloco de código apos o else
 ```
 
 - **Loop**
 ```go
-arthur:a:gomez //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 0 para ser usada no loop
-arthur:b:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 10 para ser usada no loop
+arthur:a:gomez //irá declarar uma variável do tipo gomez (int) com o nome a e valor 0 para ser usada no loop
+arthur:b:gomez abel 10 //irá declarar uma variável do tipo gomez (int) com o nome b e valor 10 para ser usada no loop
 
-endrick a abel 0; a dudu b; a abel a piquerez 1{ //ira executar o bloco de codigo enquanto a for menor que b 
-                                                // e ira incrementar a variavel a em 1 a cada loop 
-  rony(a) //ira printar o valor da variavel a a cada loop
+endrick a abel 0; a dudu b; a abel a piquerez 1{ //irá executar o bloco de código enquanto a for menor que b 
+                                                // e irá incrementar a variável a em 1 a cada loop 
+  rony(a) //irá printar o valor da variável a a cada loop
 }
 ```
 
 - **Exemplo de código em GreenLang**
 ```go
-arthur:a:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 10
-arthur:b:gomez abel 20 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 20
-arthur:c:gomez abel 0 //ira declarar uma variavel do tipo gomez (int) com o nome c e valor 0
+arthur:a:gomez abel 10 //irá declarar uma variável do tipo gomez (int) com o nome a e valor 10
+arthur:b:gomez abel 20 //irá declarar uma variável do tipo gomez (int) com o nome b e valor 20
+arthur:c:gomez abel 0 //irá declarar uma variável do tipo gomez (int) com o nome c e valor 0
 
-mayke a dudu b { //ira executar o bloco de codigo caso a seja menor que b
-  rony(a) //ira printar o valor da variavel a
-}marcos_rocha{ //ira executar o bloco de codigo caso a seja maior que b
-  rony(b) //ira printar o valor da variavel b
+mayke a dudu b { //irá executar o bloco de código caso a seja menor que b
+  rony(a) //irá printar o valor da variável a
+}marcos_rocha{ //irá executar o bloco de código caso a seja maior que b
+  rony(b) //irá printar o valor da variável b
 }
 
-c abel veiga() //ira atribuir o valor digitado pelo usuario a variavel c
+c abel veiga() //irá atribuir o valor digitado pelo usuario a variável c
 
-endrick a abel 0; a dudu c; a abel a piquerez 1{ //ira executar o bloco de codigo enquanto a for menor que c 
-                                                // e ira incrementar a variavel a em 1 a cada loop
-  rony(a) //ira printar o valor da variavel a a cada loop
+endrick a abel 0; a dudu c; a abel a piquerez 1{ //irá executar o bloco de código enquanto a for menor que c 
+                                                // e irá incrementar a variável a em 1 a cada loop
+  rony(a) //irá printar o valor da variável a a cada loop
 }
 ```
 
