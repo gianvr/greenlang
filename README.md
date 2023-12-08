@@ -32,7 +32,7 @@ LETTER = ( a | ... | z | A | ... | Z ) ;
 DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
 ```
 
-## Operador para Palavra Reservada
+## Dicionário
 | Operador  | Palavra Reservada    |
 |-----------|----------------------|
 | int       | gomez                |
@@ -126,7 +126,10 @@ endrick a abel 0; a dudu c; a abel a piquerez 1{ //ira executar o bloco de codig
 >[!WARNING]
 >O compilador foi desenvolvido para ser executado em ambiente Linux. Não foi testado em ambiente Windows.
 
-Para executar o compilador, crie um arquivo com a extensão .sep e execute o comando abaixo no terminal no diretório raiz do projeto:
+>[!TIP]
+>Na raiz do projeto, tem um arquivo de exemplo chamado `teste.sep`, que pode ser utilizado para testar o compilador e o flex/bison.
+
+Para executar o compilador, crie um arquivo com a extensão `.sep` e execute o comando abaixo no terminal no diretório raiz do projeto:
 
 ```bash
 python main.py <nome_do_arquivo>.sep
@@ -148,7 +151,7 @@ Feito isso o executável será gerado e poderá ser executado com o comando abai
 ./<nome_do_arquivo>
 ```
 
-### Como executar o flex/bison (**somente** léxico e sintático)
+### Como executar o flex/bison (`somente` léxico e sintático)
 
 Para executar o flex/bison, execute o comando abaixo no terminal no diretório raiz do projeto:
 
@@ -156,8 +159,7 @@ Para executar o flex/bison, execute o comando abaixo no terminal no diretório r
 ./flex_bison/a.out < <nome_do_arquivo>.sep
 ```
 
->[!TIP]
->Na raiz do projeto, tem um arquivo de exemplo chamado teste.sep, que pode ser utilizado para testar o compilador e o flex/bison.
+Tudo estando correto não irá retornar nada
 
 ## Aviso Legal
 O desenvolvedor da linguagem Palmeirês é apenas um estudante de engenharia da computação e torcedor do Palmeiras. O Palmeirês é uma expressão criativa de admiração ao time e seus jogadores, sem ligação oficial com a Sociedade Esportiva Palmeiras como organização.
