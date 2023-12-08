@@ -8,18 +8,18 @@
     char* str;
 }
 
-%token ELSE IF FOR  TYPE_INT TYPE_STRING
+%token ELSE IF FOR  TYPE_INT
 %token EQUAL LESS_THAN GREATER_THAN
 %token NEG EQUALS SCAN OR AND
 %token PLUS MINUS TIMES DIVIDE
-%token PRINT CONCATENATION VAR
+%token PRINT VAR
 %token OPEN_PAREN CLOSE_PAREN 
 %token OPEN_BRACE CLOSE_BRACE COLON
 %token SEMICOLON  EOL
 %token <num> NUMBER
 %type<num> factor term exp rel_exp bool_term bool_exp assignment statement program block
 
-%token<str> STRING IDENTIFIER
+%token<str> IDENTIFIER
 
 
 %%
@@ -29,18 +29,20 @@ program:
     ;
 
 statement:
-    VAR COLON IDENTIFIER COLON TYPE_INT EQUAL NUMBER EOL{/* TODO: declaracao de int */   }
-    | VAR COLON IDENTIFIER COLON TYPE_STRING EQUAL STRING EOL{ /* TODO: declaracao de string */ }
+    VAR COLON IDENTIFIER COLON TYPE_INT EQUAL NUMBER EOL{/* TODO: declaracao de int com atribuicao de valor*/   }
+    | VAR COLON IDENTIFIER COLON TYPE_INT EOL{/* TODO: declaracao de int vazia*/ }
     | PRINT OPEN_PAREN bool_exp CLOSE_PAREN EOL{ /* TODO: print */ }
-    | IF bool_exp block EOL{ /* TODO: if sem else */}
     | IF bool_exp block ELSE block EOL{ /* TODO: if com else */   }
+    | IF bool_exp block EOL{ /* TODO: if sem else */}
     | FOR assignment SEMICOLON bool_exp SEMICOLON assignment block EOL{/* TODO: for */ }
     | assignment EOL
+    | EOL 
+    ;
 
 statements:
     | statements statement
 block:
-    OPEN_BRACE EOL statements CLOSE_BRACE EOL{/* TODO: block */}
+    OPEN_BRACE EOL statements CLOSE_BRACE {/* TODO: block */}
     ;
 assignment:
     IDENTIFIER EQUAL bool_exp { /* TODO: assignment */ }
@@ -64,7 +66,6 @@ rel_exp:
 exp:
     term PLUS term { /* TODO: plus expression */}
     | term MINUS term { /* TODO: minus expression */ }
-    | term CONCATENATION term { /* TODO: concatenation expression */ }
     | term {/* TODO: term */}
     ;
 
@@ -75,7 +76,6 @@ term:
     ;
 factor:
      NUMBER {/* TODO: number factor */ }
-     | STRING {/* TODO: string factor */}
      | IDENTIFIER {/* TODO: identifier factor */ }
      | PLUS factor {  /* TODO: plus factor */}
      | MINUS factor {/* TODO: minus factor */ }

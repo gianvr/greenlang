@@ -58,32 +58,29 @@ extern int yydebug;
     IF = 259,                      /* IF  */
     FOR = 260,                     /* FOR  */
     TYPE_INT = 261,                /* TYPE_INT  */
-    TYPE_STRING = 262,             /* TYPE_STRING  */
-    EQUAL = 263,                   /* EQUAL  */
-    LESS_THAN = 264,               /* LESS_THAN  */
-    GREATER_THAN = 265,            /* GREATER_THAN  */
-    NEG = 266,                     /* NEG  */
-    EQUALS = 267,                  /* EQUALS  */
-    SCAN = 268,                    /* SCAN  */
-    OR = 269,                      /* OR  */
-    AND = 270,                     /* AND  */
-    PLUS = 271,                    /* PLUS  */
-    MINUS = 272,                   /* MINUS  */
-    TIMES = 273,                   /* TIMES  */
-    DIVIDE = 274,                  /* DIVIDE  */
-    PRINT = 275,                   /* PRINT  */
-    CONCATENATION = 276,           /* CONCATENATION  */
-    VAR = 277,                     /* VAR  */
-    OPEN_PAREN = 278,              /* OPEN_PAREN  */
-    CLOSE_PAREN = 279,             /* CLOSE_PAREN  */
-    OPEN_BRACE = 280,              /* OPEN_BRACE  */
-    CLOSE_BRACE = 281,             /* CLOSE_BRACE  */
-    COLON = 282,                   /* COLON  */
-    SEMICOLON = 283,               /* SEMICOLON  */
-    EOL = 284,                     /* EOL  */
-    NUMBER = 285,                  /* NUMBER  */
-    STRING = 286,                  /* STRING  */
-    IDENTIFIER = 287               /* IDENTIFIER  */
+    EQUAL = 262,                   /* EQUAL  */
+    LESS_THAN = 263,               /* LESS_THAN  */
+    GREATER_THAN = 264,            /* GREATER_THAN  */
+    NEG = 265,                     /* NEG  */
+    EQUALS = 266,                  /* EQUALS  */
+    SCAN = 267,                    /* SCAN  */
+    OR = 268,                      /* OR  */
+    AND = 269,                     /* AND  */
+    PLUS = 270,                    /* PLUS  */
+    MINUS = 271,                   /* MINUS  */
+    TIMES = 272,                   /* TIMES  */
+    DIVIDE = 273,                  /* DIVIDE  */
+    PRINT = 274,                   /* PRINT  */
+    VAR = 275,                     /* VAR  */
+    OPEN_PAREN = 276,              /* OPEN_PAREN  */
+    CLOSE_PAREN = 277,             /* CLOSE_PAREN  */
+    OPEN_BRACE = 278,              /* OPEN_BRACE  */
+    CLOSE_BRACE = 279,             /* CLOSE_BRACE  */
+    COLON = 280,                   /* COLON  */
+    SEMICOLON = 281,               /* SEMICOLON  */
+    EOL = 282,                     /* EOL  */
+    NUMBER = 283,                  /* NUMBER  */
+    IDENTIFIER = 284               /* IDENTIFIER  */
   };
   typedef enum yytokentype yytoken_kind_t;
 #endif
@@ -98,7 +95,7 @@ union YYSTYPE
     char sym;
     char* str;
 
-#line 102 "parser.tab.h"
+#line 99 "parser.tab.h"
 
 };
 typedef union YYSTYPE YYSTYPE;
