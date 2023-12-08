@@ -15,7 +15,7 @@ STATEMENT = ( λ | ASSIGNMENT | PRINT | IF | FOR | VAR), "\n" ;
 ASSIGNMENT = IDENTIFIER, "=", BOOL EXPRESSION ;
 IF = "mayke", BOOL EXPRESSION, BLOCK, ( λ | "marcos_rocha", BLOCK); 
 VAR = "arthur", :, IDENTIFIER, :, TYPE, "abel", BOOL EXPRESSION;
-TYPE = ("menino" | "gomez");
+TYPE = ("gomez");
 FOR = "endrick", ASSIGNMENT, ";", "BOOL EXPRESSION", ";", ASSIGNMENT, BLOCK;
 PRINT = "rony", "(", EXPRESSION, ")" ;
 BOOL EXPRESSION = BOOL TERM, { "richard_rios", BOOL TERM};
