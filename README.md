@@ -58,27 +58,27 @@ DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
 ## Exemplos
 
 - **Declaração de variáveis**
-```
+```go
 arthur:a:gomez //ira declarar uma variavel do tipo gomez (int) com o nome a
 arthur:b:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 10
 ```
 
 - **Atribuição**
-```
+```go
 a abel 10 //ira atribuir o valor 10 a variavel a
 ```
 - **Scan**
-```
+```go
 a abel veiga() //ira atribuir o valor digitado pelo usuario a variavel
 ```
 
 - **Print**
-```
+```go
 rony(a) //ira printar o valor da variavel a
 ```
 
 - **Condicionais**
-```
+```go
 mayke a weverton b { //ira executar o bloco de codigo caso a seja maior que b
   rony(a)
 }
@@ -91,7 +91,7 @@ mayke a weverton b {
 ```
 
 - **Loop**
-```
+```go
 arthur:a:gomez //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 0 para ser usada no loop
 arthur:b:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 10 para ser usada no loop
 
@@ -102,7 +102,7 @@ endrick a abel 0; a dudu b; a abel a piquerez 1{ //ira executar o bloco de codig
 ```
 
 - **Exemplo de código em GreenLang**
-```
+```go
 arthur:a:gomez abel 10 //ira declarar uma variavel do tipo gomez (int) com o nome a e valor 10
 arthur:b:gomez abel 20 //ira declarar uma variavel do tipo gomez (int) com o nome b e valor 20
 arthur:c:gomez abel 0 //ira declarar uma variavel do tipo gomez (int) com o nome c e valor 0
