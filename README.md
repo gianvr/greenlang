@@ -136,16 +136,16 @@ ou
 python3 main.py <nome_do_arquivo>.sep
 ```
 
-Caso tudo esteja correto irá gerar um arquivo `.asm` na pasta raiz do projeto. Para torná-lo executável, execute os comandos abaixo:
+Caso tudo esteja correto irá gerar um arquivo `.asm` na pasta output. Para torná-lo executável, execute os comandos abaixo:
 
 ```bash 
-nasm -f elf -o <nome_do_arquivo>.o <nome_do_arquivo>.asm
-gcc -m32 -no-pie -o  <nome_do_arquivo> <nome_do_arquivo>.o
+nasm -f elf -o output/<nome_do_arquivo>.o output/<nome_do_arquivo>.asm
+gcc -m32 -no-pie -o output/<nome_do_arquivo> output/<nome_do_arquivo>.o
 ```
 Feito isso o executável será gerado e poderá ser executado com o comando abaixo:
 
 ```bash
-./<nome_do_arquivo>
+./output/<nome_do_arquivo>
 ```
 
 ### Como executar o flex/bison (**somente** léxico e sintático)
@@ -155,6 +155,8 @@ Para executar o flex/bison, execute o comando abaixo no terminal no diretório r
 ```bash
 ./flex_bison/a.out < <nome_do_arquivo>.sep
 ```
+
+Caso tudo esteja correto irá aparecer a mensagem `Everything is fine! :)` no terminal.
 
 >[!TIP]
 >Na raiz do projeto, tem um arquivo de exemplo chamado teste.sep, que pode ser utilizado para testar o compilador e o flex/bison.

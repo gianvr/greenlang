@@ -5,7 +5,7 @@ from compiler.symbol_table.symbol_table import SymbolTable
 
 
 def write_output_file(nasm_output):
-    output_file_path = sys.argv[1][:-3] + "asm"
+    output_file_path = "output/"+sys.argv[1][:-3] + "asm"
     header = textwrap.dedent(
     """                ; constantes
                 SYS_EXIT equ 1

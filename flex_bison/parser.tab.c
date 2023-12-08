@@ -1513,7 +1513,9 @@ yyreturnlab:
 yywrap() {}
 
 int main() {
-    yyparse();
+    if (yyparse() == 0){
+        printf("Everything is fine! :)\n");
+    }
     return 0;
 }
 
