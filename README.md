@@ -161,7 +161,5 @@ Para executar o flex/bison, execute o comando abaixo no terminal no diretório r
 
 Caso tudo esteja correto irá aparecer a mensagem `Everything is fine! :)` no terminal.
 
-Tudo estando correto não irá retornar nada
-
 ## Aviso Legal
 O desenvolvedor da linguagem Palmeirês é apenas um estudante de engenharia da computação e torcedor do Palmeiras. O Palmeirês é uma expressão criativa de admiração ao time e seus jogadores, sem ligação oficial com a Sociedade Esportiva Palmeiras como organização.
