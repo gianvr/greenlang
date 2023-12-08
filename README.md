@@ -121,8 +121,8 @@ endrick a abel 0; a dudu c; a abel a piquerez 1{ //ira executar o bloco de codig
 
 ## Como executar o compilador
 
-[!WARNING]
-O compilador foi desenvolvido para ser executado em ambiente Linux. Não foi testado em ambiente Windows.
+>[!WARNING]
+>O compilador foi desenvolvido para ser executado em ambiente Linux. Não foi testado em ambiente Windows.
 
 Para executar o compilador, crie um arquivo com a extensão .sep e execute o comando abaixo no terminal no diretório raiz do projeto:
 
@@ -154,8 +154,8 @@ Para executar o flex/bison, execute o comando abaixo no terminal no diretório r
 ./flex_bison/a.out < <nome_do_arquivo>.sep
 ```
 
-[!TIP]
-Na raiz do projeto, tem um arquivo de exemplo chamado teste.sep, que pode ser utilizado para testar o compilador e o flex/bison.
+>[!TIP]
+>Na raiz do projeto, tem um arquivo de exemplo chamado teste.sep, que pode ser utilizado para testar o compilador e o flex/bison.
 
 ## Aviso Legal
 O desenvolvedor da linguagem Palmeirês é apenas um estudante de engenharia da computação e torcedor do Palmeiras. O Palmeirês é uma expressão criativa de admiração ao time e seus jogadores, sem ligação oficial com a Sociedade Esportiva Palmeiras como organização.
