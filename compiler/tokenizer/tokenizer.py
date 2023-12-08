@@ -16,39 +16,12 @@ class Tokenizer:
 
         if self.position == len(self.source):
             self.next = Token(type="EOF", value=None)
-        # elif self.source[self.position] == "/":
-        #     self.next = Token(type="DIV", value=None)
-        # elif self.source[self.position] == "*":
-        #     self.next = Token(type="MULT", value=None)
-        # elif self.source[self.position] == "+":
-        #     self.next = Token(type="PLUS", value=None)
-        # elif self.source[self.position] == "-":
-        #     self.next = Token(type="MINUS", value=None)
         elif self.source[self.position] == ":":
             self.next = Token(type="COLON", value=None)
         elif self.source[self.position] == "(":
             self.next = Token(type="OPEN_PAR", value=None)
         elif self.source[self.position] == ")":
             self.next = Token(type="CLOSE_PAR", value=None)
-        # elif (
-        #     self.source[self.position] == "=" and self.source[self.position + 1] != "="
-        # ):
-        #     self.next = Token(type="ASSIGNMENT", value=None)
-        # elif (
-        #     self.source[self.position] == "=" and self.source[self.position + 1] == "="
-        # ):
-        #     self.position += 1
-        #     self.next = Token(type="EQUALS", value=None)
-        # elif (
-        #     self.source[self.position] == "|" and self.source[self.position + 1] == "|"
-        # ):
-        #     self.position += 1
-        #     self.next = Token(type="OR", value=None)
-        # elif (
-        #     self.source[self.position] == "&" and self.source[self.position + 1] == "&"
-        # ):
-        #     self.position += 1
-        #     self.next = Token(type="AND", value=None)
         elif self.source[self.position] == "\n":
             self.next = Token(type="END_OF_LINE", value=None)
         elif self.source[self.position] == "{":
@@ -57,14 +30,6 @@ class Tokenizer:
             self.next = Token(type="RIGHT_CURLY_BRACE", value=None)
         elif self.source[self.position] == ";":
             self.next = Token(type="SEMICOLON", value=None)
-        # elif self.source[self.position] == ">":
-        #     self.next = Token(type="GREATER_THAN", value=None)
-        # elif self.source[self.position] == "<":
-        #     self.next = Token(type="LESS_THAN", value=None)
-        # elif self.source[self.position] == "!":
-        #     self.next = Token(type="NOT_EQUAL", value=None)
-        # elif self.source[self.position] == ".":
-        #     self.next = Token(type="CONCATENATE", value=None)
         elif self.source[self.position] == '"':
             self.position += 1
             string = ""
